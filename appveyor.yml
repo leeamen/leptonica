@@ -10,8 +10,7 @@ environment:
     #- APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2019
       #platform: Win64
 
-cache:
-  - c:/Users/appveyor/.sw
+cache: c:\Users\appveyor\.sw
 
 configuration:
   - Release
